@@ -53,8 +53,8 @@ def load_graph(graph_path, max_node_num):
             cols.append(u)
             data.append(r_w)
 
-            if len(data) == 500_000:
-                break
+            # if len(data) == 500_000:
+            #     break
             # print(u, r, r_w, v)
             # exit()
 
