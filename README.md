@@ -27,7 +27,7 @@ babelnet_emb/
     # python main.py --ppr_epsilon 1e-2  --ppr_alpha 0.8
 ```
 
-The results (pandas dataframe) will be store in the ```graph_query``` folder with same file name but with ```.plk``` extension where each entry has the following structure:
+The results (pandas dataframe) will be store in the ```graph_query``` folder with same file name but with ```.pkl``` extension where each entry has the following structure:
 
 ```
     record = {
